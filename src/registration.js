@@ -21,7 +21,7 @@ class RegistrationForm extends React.Component {
           "city": event.target.city.value
       }
 
-      fetch('http://localhost:15000/user/register', {
+      fetch('https://localhost:15001/user/register', {
         headers: {
             'Content-Type': 'application/json'
         },
