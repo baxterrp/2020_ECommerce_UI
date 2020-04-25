@@ -11,7 +11,7 @@ class App extends React.Component{
   render(){
       return (
           <Router>
-                <div class="container">
+                <div className="container">
                     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"></link>
                     <div>
                         <Header />

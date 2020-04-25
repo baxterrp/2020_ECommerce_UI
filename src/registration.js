@@ -35,75 +35,75 @@ class RegistrationForm extends React.Component {
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="form-group">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="form-group">
                 <label htmlFor="first">First Name</label>
-                <input id="firstName" name="firstName" type="text" class="form-control" />          
+                <input id="firstName" name="firstName" type="text" className="form-control" />          
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="form-group">
+            <div className="col-lg-6">
+              <div className="form-group">
               <label htmlFor="lastName">Last Name</label>
-              <input id="lastName" name="lastName" type="text" class="form-control" />         
+              <input id="lastName" name="lastName" type="text" className="form-control" />         
               </div>
             </div> 
           </div>
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="form-group">
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="form-group">
                   <label>Address: </label>
-                  <input id="address" type="text" name="address" class="form-control" />
+                  <input id="address" type="text" name="address" className="form-control" />
               </div>
 			    	</div>	
-            <div class="col-lg-4">
-					    <div class="form-group">
+            <div className="col-lg-4">
+					    <div className="form-group">
 					      <label>City: </label>
-					      <input id="city" type="text" name="city" class="form-control" />
+					      <input id="city" type="text" name="city" className="form-control" />
 					    </div>
 				    </div>				
-            <div class="col-lg-1">
-              <div class="form-group">
+            <div className="col-lg-1">
+              <div className="form-group">
                 <label>State: </label>
-                <input id="state" type="text" name="state" class="form-control" />
+                <input id="state" type="text" name="state" className="form-control" />
               </div>
             </div>				
-            <div class="col-lg-2">
-              <div class="form-group">
+            <div className="col-lg-2">
+              <div className="form-group">
                 <label>Zip Code: </label>
-                <input id="zipCode" type="text" name="zipCode" class="form-control" />
+                <input id="zipCode" type="text" name="zipCode" className="form-control" />
               </div>
             </div>
           </div>
-          <div class="row">
-				    <div class="col-lg-3">
-              <div class="form-group">
+          <div className="row">
+				    <div className="col-lg-3">
+              <div className="form-group">
                 <label>Phone: </label>
-                <input id="phoneNumber" type="text" class="form-control" name = "phoneNumber" />
+                <input id="phoneNumber" type="text" class="form-control" className = "phoneNumber" />
               </div>
 				    </div>				
-            <div class="col-lg-3">
-              <div class="form-group">
+            <div className="col-lg-3">
+              <div className="form-group">
                 <label>Email: </label>
-                <input id="email" type="text" class="form-control" name="email" />
+                <input id="email" type="text" class="form-control" className="email" />
               </div>
             </div>				
-            <div class="col-lg-3">
-              <div class="form-group">
+            <div className="col-lg-3">
+              <div className="form-group">
                 <label>Password: </label>
-                <input id="password" type="password" class="form-control" name="password" />
+                <input id="password" type="password" class="form-control" className="password" />
               </div>
             </div>				
-            <div class="col-lg-3">
-              <div class="form-group">
+            <div className="col-lg-3">
+              <div className="form-group">
                 <label>Confirm Password: </label>
-                <input id="confirm" type="password" class="form-control" />
+                <input id="confirm" type="password" className="form-control" />
               </div>
             </div>
 			    </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <button class="btn btn-success">Register and Proceed to Checkout</button>
+          <div className="row">
+            <div className="col-lg-6">
+              <button className="btn btn-success">Register and Proceed to Checkout</button>
             </div>
           </div>
         </form>
